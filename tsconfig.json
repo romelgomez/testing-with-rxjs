@@ -10,6 +10,8 @@
     "noEmit": true,
     "noEmitHelpers": true,
     "strictNullChecks": false,
+    "rootDir": "",
+    "outDir": "build",
     "lib": [
       "dom",
       "es6"
@@ -23,6 +25,9 @@
       "uglify-js"
     ]
   },
+  "include":[
+     "./examples/**/*"
+  ],
   "exclude": [
     "node_modules",
     "dist"

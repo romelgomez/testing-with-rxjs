@@ -1,7 +1,6 @@
+import Rx from 'rxjs/Rx';
 
-
-var Rx = require('rx');
-
+ 
 let obj0 = {
     name: 'romel javier',
     lastName: 'Gomez Herrera'
