@@ -1,5 +1,4 @@
-import Rx from 'rxjs/Rx';
-
+var Rx = require('@reactivex/rxjs');
  
 let obj0 = {
     name: 'romel javier',
